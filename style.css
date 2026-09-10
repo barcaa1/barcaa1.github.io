@@ -2,13 +2,11 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 48px;
-
   justify-items: center;
 }
 
 .card {
-  width: 80%;
-  max-width: 900px;
+  width: min(88%, 1040px);
 
   background: white;
   border-radius: 4px;
@@ -83,11 +81,14 @@
 
 .projects-section {
   width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 24px 20px 0;
 }
 
 .projects-section > h2 {
   display: block;
   width: 100%;
   text-align: center !important;
-  margin: 0 auto 40px;
+  margin: 0 auto 44px;
 }
