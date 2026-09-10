@@ -6,7 +6,7 @@
 }
 
 .card {
-  width: min(96%, 1280px);
+  width: min(80%, 960px);
 
   background: white;
   border-radius: 4px;
