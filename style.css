@@ -1,7 +1,7 @@
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 48px;
 }
 
 .card {
@@ -39,4 +39,18 @@
   .projects {
     grid-template-columns: 1fr;
   }
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.video-grid video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  background: #000;
 }
