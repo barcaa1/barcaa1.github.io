@@ -80,3 +80,13 @@
     font-size: 22px;
   }
 }
+
+.projects-section {
+  width: 100%;
+}
+
+.projects-section > h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 40px;
+}
