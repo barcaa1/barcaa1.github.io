@@ -29,6 +29,23 @@
   align-items: center;
 }
 
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.hero-tags span {
+  padding: 6px 12px;
+  border: 1px solid #d8d8d8;
+  border-radius: 999px;
+  background: #fff;
+
+  font-size: 13px;
+  color: #555;
+}
 /* 每个项目的两个视频 */
 .video-grid {
   display: grid;
@@ -39,7 +56,7 @@
 .video-grid video {
   width: 100%;
   aspect-ratio: 3 / 2;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   background: #000;
 }
